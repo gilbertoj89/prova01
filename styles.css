@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.form {
+  width: 600px;
+}
+.form-area {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+.form-session {
+  position: relative;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.wrapperSubTitle {
+  margin-top: -28px;
+  background: #fff;
+}
+.subTitle {
+  position: absolute;
+  top: -10px; /* ajusta a posição do topo para que fique em cima da borda */
+  left: 10px; /* ajusta a posição da esquerda para que fique alinhado com o conteúdo do formulário */
+  background-color: white; /* garante que o fundo do título seja branco */
+  padding: 0 5px;
+}
+
+.row-options {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.option {
+  padding: 4px;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+}
